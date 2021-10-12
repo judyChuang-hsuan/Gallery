@@ -1,0 +1,25 @@
+nav {
+  background-color: #777;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+}
+h1 {
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 3rem;
+}
+ul li {
+  padding: 0.5rem 1rem;
+}
+ul li a {
+  font-size: 2rem;
+  color: #fff;
+}

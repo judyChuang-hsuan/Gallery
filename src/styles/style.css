@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Satisfy", cursive;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+.morePicture button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@import "./_nav.css";
+@import "./_search.css";
+@import "./_footer.css";
+@import "./_picture.css";
